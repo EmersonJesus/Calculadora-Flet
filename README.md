@@ -1,64 +1,40 @@
- ```
 # Calculadora
 
-This is a simple calculator app built with Flet.
+## Descrição do Projeto
 
-### Features
+Esta é uma implementação de uma calculadora inspirada na calculadora do iPhone. O projeto foi desenvolvido em Python usando a biblioteca Flet para a interface gráfica.
 
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Percentage
-- Negation
-- Decimal point
+## Capturas de Tela
 
-### How to use
+![Imagem do projeto em execução](https://i.imgur.com/lOOKgFh.png)
 
-1. Clone the repository.
+## Instalação
 
-2. Install Flet.
+Para executar a Calculadora do iPhone, siga os passos abaixo:
 
-```
-pip install flet
-```
+1. Ative o ambiente virtual (recomendado):
 
-3. Run the app.
+   ```
+   source venv/bin/activate
+   ```
 
-```
-python main.py
-```
+2. Instale as dependências do projeto:
 
-4. Use the calculator!
+   ```
+   pip install flet
+   ```
 
-### Code
+3. Execute o arquivo principal `main.py`
+   
+## Uso
 
-The code for the calculator is in the `main.py` file.
+A Calculadora do iPhone oferece uma interface simples e familiar. Você pode realizar operações de adição, subtração, multiplicação e divisão, bem como cálculos percentuais e alterar o sinal dos números. Os resultados são exibidos na tela central.
 
-The first part of the code imports the necessary libraries.
+## Contribuição
 
-```
-import flet as ft
-from flet import colors
-from decimal import Decimal
-```
+Sinta-se à vontade para contribuir com este projeto. Se você encontrou um bug, tem uma sugestão ou deseja colaborar de alguma forma, siga estas diretrizes:
 
-The next part of the code defines the buttons for the calculator.
-
-```
-botoes = [
-    {'operador': 'AC', 'fonte': colors.BLACK, 'fundo': colors.BLUE_GREY_100},
-    {'operador': '±', 'fonte': colors.BLACK, 'fundo': colors.BLUE_GREY_100},
-    {'operador': '%', 'fonte': colors.BLACK, 'fundo': colors.BLUE_GREY_100},
-    {'operador': '/', 'fonte': colors.WHITE, 'fundo': colors.ORANGE},
-    {'operador': '7', 'fonte': colors.WHITE, 'fundo': colors.WHITE24},
-    {'operador': '8', 'fonte': colors.WHITE, 'fundo': colors.WHITE24},
-    {'operador': '9', 'fonte': colors.WHITE, 'fundo': colors.WHITE24},
-    {'operador': '*', 'fonte': colors.WHITE, 'fundo': colors.ORANGE},
-    {'operador': '4', 'fonte': colors.WHITE, 'fundo': colors.WHITE24},
-    {'operador': '5', 'fonte': colors.WHITE, 'fundo': colors.WHITE24},
-    {'operador': '6', 'fonte': colors.WHITE, 'fundo': colors.WHITE24},
-    {'operador': '-', 'fonte': colors.WHITE, 'fundo': colors.ORANGE},
-    {'operador': '1', 'fonte': colors.WHITE, 'fundo': colors.WHITE24},
-    {'operador': '2', 'fonte': colors.WHITE, 'fundo': colors.
-
+- Abra um problema (issue) para discutir a alteração ou problema.
+- Faça um fork do projeto.
+- Crie um branch com uma descrição significativa (por exemplo, `feature-nova-funcionalidade` ou `correcao-nome-do-bug`).
+- Envie suas alterações em um pull request.
